@@ -1,0 +1,38 @@
+.header-container {
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  background-color: #212121;
+
+  &-logo {
+
+    &-link {
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      text-decoration: none;
+
+      &-red {
+        color: #9b1a1a;
+
+      }
+    }
+  }
+
+  &-navigation {
+
+    &-link {
+      color: white;
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+    }
+  }
+}
