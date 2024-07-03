@@ -1,0 +1,12 @@
+.footer-container {
+  height: 3rem;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-weight: 200;
+    color: white;
+  }
+}
