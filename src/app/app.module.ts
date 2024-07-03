@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { SliderComponent } from './shared/components/slider/slider.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MovieListComponent } from './pages/movie-list/movie-list.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { MovieListComponent } from './pages/movie-list/movie-list.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    MovieListComponent
+    MovieListComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
