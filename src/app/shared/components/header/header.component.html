@@ -6,10 +6,10 @@
   </div>
   <nav class="header-container-navigation">
     <ul>
-      <li><a href="#" class="header-container-navigation-link">Home</a></li>
-      <li><a href="#" class="header-container-navigation-link">Movies</a></li>
-      <li><a href="#" class="header-container-navigation-link">TV Shows</a></li>
-      <li><a href="#" class="header-container-navigation-link">Genres</a></li>
+      <li><a [routerLink]="'/'" class="header-container-navigation-link">Home</a></li>
+      <li><a [routerLink]="'movie-list'" class="header-container-navigation-link">Movies</a></li>
+      <li><a [routerLink]="'tv-shows'" class="header-container-navigation-link">TV Shows</a></li>
+      <li><a [routerLink]="'genres'" class="header-container-navigation-link">Genres</a></li>
     </ul>
   </nav>
 </header>
