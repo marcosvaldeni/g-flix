@@ -8,7 +8,6 @@ import { MoviesService } from 'src/app/services/movies.service';
   styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent implements OnInit {
-
   movies: any;
 
   constructor(
@@ -20,7 +19,7 @@ export class SliderComponent implements OnInit {
   }
 
   getPupularMovies() {
-    this.moviesService.getPupularMovies().subscribe((data) => console.log(data))
+    this.movies = this.moviesService.getPupularMovies();
   }
 
 
