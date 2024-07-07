@@ -22,9 +22,11 @@
       </div>
     </div>
     <div class="description">
-      <pre>
-        {{ movies | async | json }}
-      </pre>
+      <ng-container *ngIf="movies$ | async">
+        <p *ngFor="let movie of movies$.results | async">
+          {{ movie.original_title }}
+        </p>
+      </ng-container>
     </div>
   </div>
 </div>
